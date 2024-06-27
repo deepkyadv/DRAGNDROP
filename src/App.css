@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.block {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: blue;
+  background-color: rgb(228, 144, 144);
+  color: black;
+}
+
+.block > h2 {
+  margin-top: 0;
+}
+
+.block > div {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.drag h1{
+  text-align: center;
+}
